@@ -6,7 +6,7 @@
 #include "button.h"
 #include "food.h"
 
-#define SNAKE_START_LENGTH 10
+#define SNAKE_START_LENGTH 30
 #define HEAD 0
 
 static snake_t snake = {0};

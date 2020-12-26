@@ -54,16 +54,16 @@ void loop() {
     display_update();
     snake_update_direction();
     snake_move();
-
     if (snake_ate_food(food)) {
       score++;
       food_generate_new(snake);
     }
-    delay(100);
+    delay(5);
   }
   else {
     display_game_over();
   }
 }
+
 
 

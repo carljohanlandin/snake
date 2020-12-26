@@ -1,7 +1,7 @@
 #include <Arduino.h>
 #include "button.h"
 
-#define DEBOUNCE_TIME 80
+#define DEBOUNCE_TIME 120
 
 volatile uint32_t debounce_timer = 0;
 
